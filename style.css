@@ -1,0 +1,27 @@
+#mainContainer {
+    display: grid;
+    justify-content: center;
+    
+}
+ 
+#container{
+    display: grid;
+    grid-template-rows: 1,1fr;
+    grid-template-columns:1, 1fr;
+    width: 500px;
+    height: 500px;
+    border: black solid 2px;
+
+}
+
+.grid {
+    
+    border:black solid 1px;
+    
+    
+}
+
+#button {
+    text-align: center;
+    padding: 10px;
+}
